@@ -297,7 +297,7 @@ const RulesPage: React.FC = () => {
   }, [activeRuleset, tempNewRule]);
 
   return (
-    <DndProvider backend={HTML5Backend} key={activeRulesetId}>
+    <DndProvider backend={HTML5Backend}>
       <div className="min-h-screen bg-gray-50 p-4 sm:p-6 lg:p-8">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6">
